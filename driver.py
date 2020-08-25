@@ -7,6 +7,6 @@ browser = webdriver.Firefox()
 browser.implicitly_wait(5)
 
 home_page = LoginPage(browser)
-home_page.login("dolan_pettit","Richmond96")
+home_page.login("username","password")
 
 browser.close()
